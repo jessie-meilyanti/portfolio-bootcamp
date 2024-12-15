@@ -1,0 +1,86 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+}
+
+.nav-items {
+    color: white;
+}
+
+.title-contact  {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* teks di tengah2 */
+}
+
+.connect {
+    color: palevioletred;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: bisque;
+    padding: 10px;
+}
+/* . di css adlh class */
+/* flex membuat sejajar dn semuanya ukuran sama */
+/* gap = memberi jarak,, hanya ada klo pk display flex */
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.nama {
+    width: 50%;
+}
+
+.email {
+    width: 50%;
+}
+
+.form-item {
+    padding: 12px;
+    border-radius: 5px;
+    border-color: rgb(248, 248, 248);
+    background-color: transparent;
+    outline: none;
+}
+
+.form-item:hover {
+    border-color: palevioletred;
+    transition: 0.9s;
+}
+
+.btn-contact {
+    width: 200px;
+    background-color: pink;
+    border: 0px;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.btn-contact:hover {
+    background-color: palevioletred;
+    transition: 0.6s ease-in-out;
+    /* ada ease-in, ease-in-out, ease-out */
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}

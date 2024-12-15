@@ -1,0 +1,42 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 0px 20px;
+}
+
+.nav-items {
+    color: white;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    /* gap mengatur jarak komponen (kepake klo pk flex) */
+}
+
+.profile {
+    width: 300px;
+    /* ada width ada height */
+    /* width mengatur lebar komponen */
+    /* height mengatur tinggi komponen */
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    /* border-radius memberi efek tumpul komponen */
+}
+
+.description {
+    width: 350px;
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}

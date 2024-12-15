@@ -1,0 +1,37 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex; 
+    /* div pembungkus biar bisa ngubah yang didlmnya(komponennya) */
+    /* display */
+    /* flex = horizontal */
+    /* block = vertikal */
+    /* flex-box */
+    /* flex = horizontal & vertikal | msk kedlm materi flexbox = inline-block (udh jarang dipk)*/
+    /* flex-direction = column/row */
+    justify-content: space-between; 
+    /* justify-content mengubah posisi/jarakkomponen menjd horizontal (x) */
+    /* paling sering dipk space-evenly, space-around jarang */
+    align-items: center;
+    /* align-items mengubah/ngatur jarak scr vertikal (y) */
+    background-color: palevioletred;
+    color: white; 
+    /* color doang itu huruf */
+    padding: 0px 20px;
+    /* padding - jarak dalam komponen / kotak navbar */
+    /* margin - jarak luar komponen / kotak navbar */
+    /* ypx xpx - (y) vertikal dan (x) horizontal */
+}
+
+.nav-items {
+    color: white;
+}
+
+/* gada titik karena gapake class */
+/* id itu berat, lbh banyak pk class */
+footer { 
+    background-color: palevioletred;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}

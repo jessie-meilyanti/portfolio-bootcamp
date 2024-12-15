@@ -1,0 +1,50 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 0px 20px;
+}
+
+.nav-items {
+    color: white;
+}
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1608499296275-1f22c6391b88?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHByb2dyYW1tZXJ8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat; 
+    /* biar gadiulang2 */
+    background-size: cover;
+    /* biar full fotonya */
+    background-color: pink;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: pink;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 2px;
+    /* semakin tinggi px semakin tumpul */
+    border: 0px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: palevioletred;
+    transition: 0.6s ease-in-out;
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
